@@ -1,0 +1,93 @@
+{
+  "stickers": [
+    {
+      "id": 1,
+      "name": "Cool Emoji",
+      "category": "emoji",
+      "image": "/public/images/stickers/moon.png",
+      "price": 5.99,
+      "description": "Cool sunglasses emoji sticker for that awesome look"
+    },
+    {
+      "id": 2,
+      "name": "Fire Emoji",
+      "category": "emoji",
+      "image": "/placeholder.svg",
+      "price": 5.99,
+      "description": "Fire emoji to show how hot your style is"
+    },
+    {
+      "id": 3,
+      "name": "Heart Eyes",
+      "category": "emoji",
+      "image": "/placeholder.svg",
+      "price": 5.99,
+      "description": "Heart eyes emoji for spreading the love"
+    },
+    {
+      "id": 4,
+      "name": "Skull Design",
+      "category": "gothic",
+      "image": "/placeholder.svg",
+      "price": 7.99,
+      "description": "Edgy skull design for a bold statement"
+    },
+    {
+      "id": 5,
+      "name": "Rose Pattern",
+      "category": "floral",
+      "image": "/placeholder.svg",
+      "price": 8.99,
+      "description": "Beautiful rose pattern for elegant style"
+    },
+    {
+      "id": 6,
+      "name": "Lightning Bolt",
+      "category": "symbols",
+      "image": "/placeholder.svg",
+      "price": 6.99,
+      "description": "Electric lightning bolt for high energy vibes"
+    },
+    {
+      "id": 7,
+      "name": "Peace Sign",
+      "category": "symbols",
+      "image": "/placeholder.svg",
+      "price": 6.99,
+      "description": "Classic peace sign for good vibes only"
+    },
+    {
+      "id": 8,
+      "name": "Galaxy Cat",
+      "category": "animals",
+      "image": "/placeholder.svg",
+      "price": 9.99,
+      "description": "Cosmic cat design for space lovers"
+    },
+    {
+      "id": 9,
+      "name": "Geometric Pattern",
+      "category": "abstract",
+      "image": "/placeholder.svg",
+      "price": 7.99,
+      "description": "Modern geometric pattern for minimalist style"
+    },
+    {
+      "id": 10,
+      "name": "Vintage Logo",
+      "category": "vintage",
+      "image": "/placeholder.svg",
+      "price": 8.99,
+      "description": "Retro vintage logo design"
+    }
+  ],
+  "categories": [
+    { "id": "emoji", "name": "Emojis", "color": "#FFD700" },
+    { "id": "gothic", "name": "Gothic", "color": "#8B0000" },
+    { "id": "floral", "name": "Floral", "color": "#FF69B4" },
+    { "id": "symbols", "name": "Symbols", "color": "#4169E1" },
+    { "id": "animals", "name": "Animals", "color": "#32CD32" },
+    { "id": "abstract", "name": "Abstract", "color": "#FF4500" },
+    { "id": "vintage", "name": "Vintage", "color": "#D2691E" }
+  ]
+}

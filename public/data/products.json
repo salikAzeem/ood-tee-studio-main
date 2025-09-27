@@ -1,0 +1,107 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Classic Cotton Tee",
+      "price": 299,
+      "category": "men",
+      "image": "/public/images/products/breakurlimit.png",
+      "images": ["/public/images/products/breakurlimit.png", "/placeholder.svg", "/placeholder.svg"],
+      "description": "Premium 100% cotton t-shirt with superior comfort and durability. Perfect for everyday wear or custom printing.",
+      "sizes": [ "S", "M", "L"],
+      "colors": ["White", "Black", "Gray", "Navy"],
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "Premium Polo Shirt",
+      "price": 39.99,
+      "category": "men",
+      "image": "/placeholder.svg",
+      "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+      "description": "Elegant polo shirt made from high-quality cotton blend. Ideal for business casual or custom corporate branding.",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["White", "Black", "Red", "Navy", "Gray"],
+      "featured": true
+    },
+    {
+      "id": 3,
+      "name": "Women's Fitted Tee",
+      "price": 32.99,
+      "category": "women",
+      "image": "/placeholder.svg",
+      "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+      "description": "Soft, feminine cut t-shirt that flatters every body type. Made from organic cotton for ultimate comfort.",
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "colors": ["White", "Black", "Pink", "Purple", "Mint"],
+      "featured": true
+    },
+    {
+      "id": 4,
+      "name": "Kids Fun Tee",
+      "price": 19.99,
+      "category": "kids",
+      "image": "/placeholder.svg",
+      "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+      "description": "Durable and comfortable t-shirt designed specifically for children. Perfect for custom prints and everyday play.",
+      "sizes": ["2T", "3T", "4T", "6", "8", "10", "12"],
+      "colors": ["White", "Black", "Blue", "Red", "Yellow"],
+      "featured": false
+    },
+    {
+      "id": 5,
+      "name": "Hoodie Classic",
+      "price": 49.99,
+      "category": "hoodies",
+      "image": "/placeholder.svg",
+      "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+      "description": "Cozy fleece hoodie perfect for cooler weather. Great for custom embroidery and screen printing.",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["Black", "Gray", "Navy", "Maroon"],
+      "featured": true
+    },
+    {
+      "id": 6,
+      "name": "Tank Top Summer",
+      "price": 24.99,
+      "category": "summer",
+      "image": "/placeholder.svg",
+      "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+      "description": "Breathable tank top perfect for summer weather and active wear. Lightweight and comfortable.",
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "colors": ["White", "Black", "Gray", "Blue"],
+      "featured": false
+    },
+    {
+      "id": 7,
+      "name": "Long Sleeve Basic",
+      "price": 34.99,
+      "category": "men",
+      "image": "/placeholder.svg",
+      "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+      "description": "Classic long sleeve t-shirt for cooler days. Perfect base for custom printing and layering.",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["White", "Black", "Gray", "Navy"],
+      "featured": false
+    },
+    {
+      "id": 8,
+      "name": "V-Neck Premium",
+      "price": 31.99,
+      "category": "women",
+      "image": "/placeholder.svg",
+      "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+      "description": "Elegant v-neck design with superior comfort. Made from premium cotton blend.",
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "colors": ["White", "Black", "Pink", "Purple"],
+      "featured": false
+    }
+  ],
+  "categories": [
+    { "id": "men", "name": "Men's Wear", "image": "/placeholder.svg" },
+    { "id": "women", "name": "Women's Wear", "image": "/placeholder.svg" },
+    { "id": "kids", "name": "Kids Wear", "image": "/placeholder.svg" },
+    { "id": "hoodies", "name": "Hoodies", "image": "/placeholder.svg" },
+    { "id": "summer", "name": "Summer Collection", "image": "/placeholder.svg" }
+  ]
+}
