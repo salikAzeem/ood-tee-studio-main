@@ -5,7 +5,7 @@
       "name": "Classic Cotton Tee",
       "price": 299,
       "category": "men",
-      "image": "/public/images/products/breakurlimit.png",
+      "image": "../public/images/products/breakurlimit.png",
       "images": ["/public/images/products/breakurlimit.png", "/placeholder.svg", "/placeholder.svg"],
       "description": "Premium 100% cotton t-shirt with superior comfort and durability. Perfect for everyday wear or custom printing.",
       "sizes": [ "S", "M", "L"],
