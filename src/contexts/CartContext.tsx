@@ -161,7 +161,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const generateWhatsAppMessage = (): string => {
     const orderDetails = state.items.map(item => {
-      let itemText = `• ${item.name} (Qty: ${item.quantity}) - $${(item.price * item.quantity).toFixed(2)}`;
+      let itemText = `• ${item.name} (Qty: ${item.quantity}) - ₹${(item.price * item.quantity).toFixed(2)}`;
       if (item.size) itemText += ` | Size: ${item.size}`;
       if (item.color) itemText += ` | Color: ${item.color}`;
       if (item.customization?.stickers?.length) {
@@ -170,9 +170,10 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
       return itemText;
     }).join('\n');
 
-    const message = `Hi! I'd like to place an order from OODD:\n\n${orderDetails}\n\nTotal: $${state.total.toFixed(2)}\n\nPlease let me know the next steps. Thank you!`;
+    const message = `Hi! I'd like to place an order from OODD:\n\n${orderDetails}\n\nTotal: ₹${state.total.toFixed(2)}\n\nPlease let me know the next steps. Thank you!`;
     
-    return `https://wa.me/?text=${encodeURIComponent(message)}`;
+    return `https://wa.me/7006502449?text=${encodeURIComponent(message)}`;
+
   };
 
   return (

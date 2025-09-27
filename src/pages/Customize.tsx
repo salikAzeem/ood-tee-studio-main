@@ -75,7 +75,7 @@ export const Customize = () => {
   };
 
   const calculateTotal = () => {
-    const basePrice = 29.99; // Base t-shirt price
+    const basePrice = 299; // Base t-shirt price
     const stickersTotal = placedStickers.reduce((sum, item) => sum + item.sticker.price, 0);
     return basePrice + stickersTotal;
   };
@@ -301,7 +301,7 @@ export const Customize = () => {
                 {/* Base T-Shirt */}
                 <div className="flex justify-between items-center">
                   <span>Base T-Shirt ({tshirtSize}, {tshirtColor})</span>
-                  <span>$29.99</span>
+                  <span>₹299</span>
                 </div>
 
                 {/* Added Stickers */}

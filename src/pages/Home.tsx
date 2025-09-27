@@ -177,7 +177,7 @@ export const Home = () => {
                 transition={{ delay: index * 0.1 }}
               >
                 <Link
-                  to={`/shop?category=₹{category.id}`}
+                  to={`/shop?category=${category.id}`}
                   className="group block relative overflow-hidden rounded-xl shadow-medium hover:shadow-large transition-all duration-300"
                 >
                   <div className="aspect-square bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
