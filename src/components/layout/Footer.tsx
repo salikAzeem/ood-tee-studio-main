@@ -21,16 +21,16 @@ export const Footer = () => {
               Express your style with our unique designs and personalization options.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Instagram className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Twitter className="h-5 w-5" />
-              </a>
+            <a
+            href="https://www.instagram.com/oodd_business?igsh=cXY4Zm5wazIwYWd0&utm_source=qr"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-primary transition-colors"
+            >
+            <Instagram className="h-5 w-5" />
+            </a>
             </div>
+
           </div>
 
           {/* Quick Links */}
@@ -77,15 +77,15 @@ export const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4" />
-                <span>hello@oodd.com</span>
+                <span>oodd252024@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 7209552057</span>
               </div>
               <div className="flex items-center space-x-3 text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4" />
-                <span>123 Design Street, Creative City</span>
+                <span>Law Gate,Phagwara,Punjab</span>
               </div>
             </div>
           </div>

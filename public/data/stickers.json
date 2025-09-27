@@ -4,8 +4,8 @@
       "id": 1,
       "name": "Cool Emoji",
       "category": "emoji",
-      "image": "/public/images/stickers/moon.png",
-      "price": 5.99,
+      "image": "/images/stickers/1.png",
+      "price": 0,
       "description": "Cool sunglasses emoji sticker for that awesome look"
     },
     {

@@ -206,6 +206,7 @@ export const Home = () => {
           </h2>
           <p className="text-xl text-white/90 mb-8">
             Start designing your custom t-shirt today with our easy-to-use customization tools
+              Bcz it's OODD "THE PERFECT FIT"
           </p>
           <Button asChild size="lg" className="btn-secondary text-lg px-8">
             <Link to="/customize">
