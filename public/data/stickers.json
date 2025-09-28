@@ -2,27 +2,27 @@
   "stickers": [
     {
       "id": 1,
-      "name": "Cool Emoji",
+      "name": "1",
       "category": "emoji",
       "image": "/images/stickers/1.png",
-      "price": 0,
-      "description": "Cool sunglasses emoji sticker for that awesome look"
+      "price": 10,
+      "description": "1"
     },
     {
       "id": 2,
-      "name": "Fire Emoji",
+      "name": "2",
       "category": "emoji",
-      "image": "/placeholder.svg",
-      "price": 5.99,
-      "description": "Fire emoji to show how hot your style is"
+      "image": "/images/stickers/2.png",
+      "price": 10,
+      "description": "2"
     },
     {
       "id": 3,
-      "name": "Heart Eyes",
+      "name": "3",
       "category": "emoji",
-      "image": "/placeholder.svg",
-      "price": 5.99,
-      "description": "Heart eyes emoji for spreading the love"
+      "image": "/images/stickers/3.png",
+      "price": 10,
+      "description": "3"
     },
     {
       "id": 4,

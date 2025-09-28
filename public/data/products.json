@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Classic Cotton Tee",
+      "name": "Cotton Tee Break Your Limit",
       "price": 299,
       "category": "men",
       "image": "/images/products/bulfront.png",
@@ -14,24 +14,24 @@
     },
     {
       "id": 2,
-      "name": "Premium Polo Shirt",
-      "price": 39.99,
+      "name": "Cotton Tee Satoru Gojo",
+      "price": 299,
       "category": "men",
-      "image": "/placeholder.svg",
-      "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
-      "description": "Elegant polo shirt made from high-quality cotton blend. Ideal for business casual or custom corporate branding.",
-      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "image": "/images/products/SatoruGojo.png",
+      "images": ["/images/products/SatoruGojo.png", "/images/products/bulside.png", "/images/products/bulback.png"],
+      "description": "Premium 100% cotton t-shirt with superior comfort and durability. Perfect for everyday wear or custom printing.",
+      "sizes": ["S", "M", "L"],
       "colors": ["White", "Black", "Red", "Navy", "Gray"],
       "featured": true
     },
     {
       "id": 3,
-      "name": "Women's Fitted Tee",
-      "price": 32.99,
-      "category": "women",
-      "image": "/placeholder.svg",
-      "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
-      "description": "Soft, feminine cut t-shirt that flatters every body type. Made from organic cotton for ultimate comfort.",
+      "name": "Cotton Tee NoMoreRules",
+      "price": 299,
+      "category": "men",
+      "image": "/images/products/NoMoreRules.png",
+      "images": ["/images/products/NoMoreRules.png", "/placeholder.svg", "/placeholder.svg"],
+      "description": "Premium 100% cotton t-shirt with superior comfort and durability. Perfect for everyday wear or custom printing.",
       "sizes": ["XS", "S", "M", "L", "XL"],
       "colors": ["White", "Black", "Pink", "Purple", "Mint"],
       "featured": true
@@ -39,7 +39,7 @@
     {
       "id": 4,
       "name": "Kids Fun Tee",
-      "price": 19.99,
+      "price": 199,
       "category": "kids",
       "image": "/placeholder.svg",
       "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
@@ -51,7 +51,7 @@
     {
       "id": 5,
       "name": "Hoodie Classic",
-      "price": 49.99,
+      "price": 699,
       "category": "hoodies",
       "image": "/placeholder.svg",
       "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
