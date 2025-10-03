@@ -9,6 +9,7 @@ interface Product {
   id: number;
   name: string;
   price: number;
+  original_price?: number; 
   image: string;
   category: string;
   featured?: boolean;
@@ -97,6 +98,16 @@ export const ProductCard = ({ product, index = 0 }: ProductCardProps) => {
               <span className="text-lg font-bold text-primary">
                 ₹{product.price.toFixed(2)}
               </span>
+                {product.original_price && (
+    <>
+      <span className="text-sm line-through text-muted-foreground">
+        ₹{product.original_price.toFixed(2)}
+      </span>
+      <span className="text-sm text-green-500 font-semibold">
+        {Math.round(((product.original_price - product.price) / product.original_price) * 100)}% OFF
+      </span>
+    </>
+  )}
               <Button
                 variant="ghost"
                 size="sm"

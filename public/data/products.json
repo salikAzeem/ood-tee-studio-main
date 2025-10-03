@@ -1,21 +1,31 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Cotton Tee Break Your Limit",
-      "price": 299,
-      "category": "men",
-      "image": "/images/products/bulfront.png",
-      "images": ["/images/products/bulfront.png", "/images/products/bulside.png", "/images/products/bulback.png"],
-      "description": "Premium 100% cotton t-shirt with superior comfort and durability. Perfect for everyday wear or custom printing.",
-      "sizes": [ "S", "M", "L"],
-      "colors": ["White", "Black", "Gray", "Navy"],
-      "featured": true
-    },
+  "id": 1,
+  "name": "Cotton Tee Break Your Limit",
+  "price": 299,
+  "original_price": 499,
+  "discount_percentage": 40,
+  "category": "men",
+  "image": "/images/products/bulfront.png",
+  "images": [
+    "/images/products/bulfront.png",
+    "/images/products/bulside.png",
+    "/images/products/bulback.png"
+  ],
+  "description": "Premium 100% cotton t-shirt with superior comfort and durability. Perfect for everyday wear or custom printing.",
+  "sizes": ["S", "M", "L"],
+  "colors": ["White", "Black", "Gray", "Navy"],
+  "featured": true,
+  "tax_inclusive": true
+}
+,
     {
       "id": 2,
       "name": "Cotton Tee Satoru Gojo",
       "price": 299,
+      "original_price": 499,
+      "discount_percentage": 40,
       "category": "men",
       "image": "/images/products/SatoruGojo.png",
       "images": ["/images/products/SatoruGojo.png", "/images/products/bulside.png", "/images/products/bulback.png"],
@@ -28,6 +38,8 @@
       "id": 3,
       "name": "Cotton Tee NoMoreRules",
       "price": 299,
+      "original_price": 499,
+      "discount_percentage": 40,
       "category": "men",
       "image": "/images/products/NoMoreRules.png",
       "images": ["/images/products/NoMoreRules.png", "/placeholder.svg", "/placeholder.svg"],
