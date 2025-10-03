@@ -11,6 +11,7 @@ interface Product {
   id: number;
   name: string;
   price: number;
+  original_price?: number; 
   category: string;
   image: string;
   images: string[];
@@ -144,9 +145,29 @@ export const ProductDetail = () => {
               </div>
               <h1 className="text-3xl lg:text-4xl font-bold mb-2">{product.name}</h1>
               <div className="flex items-center space-x-4">
-                <span className="text-3xl font-bold text-primary">
-                  ₹{product.price.toFixed(2)}
-                </span>
+                <div className="flex items-center space-x-4">
+  {/* Discounted Price */}
+  <span className="text-3xl font-bold text-primary">
+    ₹{product.price.toFixed(2)}
+  </span>
+
+  {/* Original Price (strike-through) */}
+  {product.original_price && (
+    <span className="text-xl line-through text-muted-foreground">
+      ₹{product.original_price.toFixed(2)}
+    </span>
+  )}
+
+  {/* Discount % */}
+  {product.original_price && (
+    <span className="text-lg text-green-600 font-semibold">
+      {Math.round(((product.original_price - product.price) / product.original_price) * 100)}% OFF
+    </span>
+  )}
+</div>
+
+<p className="text-sm text-muted-foreground">Inclusive of all taxes</p>
+
                 <div className="flex items-center space-x-1">
                   {[...Array(5)].map((_, i) => (
                     <Star
