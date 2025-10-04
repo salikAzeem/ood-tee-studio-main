@@ -285,7 +285,7 @@ export const ProductDetail = () => {
               </div>
               <div className="space-y-2">
                 <p><span className="font-semibold">Care:</span> Machine Wash</p>
-                <p><span className="font-semibold">Made in:</span> USA</p>
+                <p><span className="font-semibold">Made in:</span> INDIA</p>
               </div>
             </div>
           </motion.div>
