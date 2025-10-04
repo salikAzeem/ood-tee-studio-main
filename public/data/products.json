@@ -46,67 +46,31 @@
       "description": "Premium 100% cotton t-shirt with superior comfort and durability. Perfect for everyday wear or custom printing.",
       "sizes": ["XS", "S", "M", "L", "XL"],
       "colors": ["White", "Black", "Pink", "Purple", "Mint"],
-      "featured": true
+      "featured": false
     },
     {
       "id": 4,
-      "name": "Kids Fun Tee",
-      "price": 199,
-      "category": "kids",
-      "image": "/placeholder.svg",
-      "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
-      "description": "Durable and comfortable t-shirt designed specifically for children. Perfect for custom prints and everyday play.",
-      "sizes": ["2T", "3T", "4T", "6", "8", "10", "12"],
-      "colors": ["White", "Black", "Blue", "Red", "Yellow"],
-      "featured": false
-    },
-    {
-      "id": 5,
-      "name": "Hoodie Classic",
-      "price": 699,
-      "category": "hoodies",
-      "image": "/placeholder.svg",
-      "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
-      "description": "Cozy fleece hoodie perfect for cooler weather. Great for custom embroidery and screen printing.",
-      "sizes": ["S", "M", "L", "XL", "XXL"],
-      "colors": ["Black", "Gray", "Navy", "Maroon"],
-      "featured": true
-    },
-    {
-      "id": 6,
-      "name": "Tank Top Summer",
-      "price": 24.99,
-      "category": "summer",
-      "image": "/placeholder.svg",
-      "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
-      "description": "Breathable tank top perfect for summer weather and active wear. Lightweight and comfortable.",
-      "sizes": ["XS", "S", "M", "L", "XL"],
-      "colors": ["White", "Black", "Gray", "Blue"],
-      "featured": false
-    },
-    {
-      "id": 7,
-      "name": "Long Sleeve Basic",
-      "price": 34.99,
-      "category": "men",
-      "image": "/placeholder.svg",
-      "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
-      "description": "Classic long sleeve t-shirt for cooler days. Perfect base for custom printing and layering.",
-      "sizes": ["S", "M", "L", "XL", "XXL"],
-      "colors": ["White", "Black", "Gray", "Navy"],
-      "featured": false
-    },
-    {
-      "id": 8,
-      "name": "V-Neck Premium",
-      "price": 31.99,
+      "name": "Cotton Tee MoonLight",
+      "price": 299,
       "category": "women",
-      "image": "/placeholder.svg",
-      "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+      "image": "/images/products/moonback.png",
+      "images": ["/images/products/moonback.png", "/images/products/sidewomen.png", "/images/products/frontwomen.png"],
       "description": "Elegant v-neck design with superior comfort. Made from premium cotton blend.",
       "sizes": ["XS", "S", "M", "L", "XL"],
       "colors": ["White", "Black", "Pink", "Purple"],
-      "featured": false
+      "featured": true
+    },
+    {
+      "id": 5,
+      "name": "Cotton Tee Butterfly",
+      "price": 299,
+      "category": "women",
+      "image": "/images/products/butterfront.png",
+      "images": ["/images/products/butterfront.png", "/images/products/frontwomen.png", "/images/products/sidewomen.png"],
+      "description": "Elegant v-neck design with superior comfort. Made from premium cotton blend.",
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "colors": ["White", "Black", "Pink", "Purple"],
+      "featured": true
     }
   ],
   "categories": [
