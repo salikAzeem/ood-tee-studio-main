@@ -57,8 +57,8 @@
       "category": "women",
       "image": "/images/products/moonback.png",
       "images": ["/images/products/moonback.png", "/images/products/sidewomen.png", "/images/products/frontwomen.png"],
-      "description": "Elegant v-neck design with superior comfort. Made from premium cotton blend.",
-      "sizes": ["XS", "S", "M", "L", "XL"],
+      "description": "Premium 100% cotton t-shirt with superior comfort and durability. Perfect for everyday wear or custom printing.",
+      "sizes": ["S", "M", "L"],
       "colors": ["White", "Black", "Pink", "Purple"],
       "featured": true
     },
@@ -71,17 +71,30 @@
       "category": "women",
       "image": "/images/products/butterfront.png",
       "images": ["/images/products/butterfront.png", "/images/products/frontwomen.png", "/images/products/sidewomen.png"],
-      "description": "Elegant v-neck design with superior comfort. Made from premium cotton blend.",
-      "sizes": ["XS", "S", "M", "L", "XL"],
+      "description": "Premium 100% cotton t-shirt with superior comfort and durability. Perfect for everyday wear or custom printing.",
+      "sizes": [ "S", "M", "L"],
       "colors": ["White", "Black", "Pink", "Purple"],
+      "featured": true
+    },
+    {
+      "id": 6,
+      "name": "Dotnet Tee wolf",
+      "price": 199,
+      "original_price": 399,
+      "discount_percentage": 50.13,
+      "category": "Dotnet",
+      "image": "/images/products/wolffront.png",
+      "images": ["/images/products/wolffront.png", "/images/products/wolfback.png", "/images/products/wolfside.png"],
+      "description": "Premium 100% cotton t-shirt with superior comfort and durability. Perfect for everyday wear or custom printing.",
+      "sizes": [ "S", "M", "L"],
+      "colors": ["White"],
       "featured": true
     }
   ],
   "categories": [
-    { "id": "men", "name": "Men's Wear", "image": "/placeholder.svg" },
-    { "id": "women", "name": "Women's Wear", "image": "/placeholder.svg" },
-    { "id": "kids", "name": "Kids Wear", "image": "/placeholder.svg" },
-    { "id": "hoodies", "name": "Hoodies", "image": "/placeholder.svg" },
-    { "id": "summer", "name": "Summer Collection", "image": "/placeholder.svg" }
+    { "id": "men", "name": "Men's Wear", "image": "/images/products/bulfront.png" },
+    { "id": "women", "name": "Women's Wear", "image": "/images/products/moonback.png" },
+    { "id": "Dotnet", "name": "Dotnet", "image": "/images/products/wolffront.png" },
+    { "id": "hoodies", "name": "Hoodies", "image": "/placeholder.svg" }
   ]
 }
