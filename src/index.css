@@ -2,95 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
-/* OODD E-commerce Design System - Modern T-shirt printing brand */
+/* OODD Trendy Fashion E-commerce - Soft Dark Theme */
 
 @layer base {
   :root {
-    /* Base colors - clean and modern */
-    --background: 0 0% 100%;
-    --foreground: 218 11% 15%;
+    /* Base - soft charcoal */
+    --background: 220 15% 12%;         /* Not pure black, soft charcoal */
+    --foreground: 220 20% 92%;         /* Slightly off-white for elegance */
 
     /* Card components */
-    --card: 0 0% 100%;
-    --card-foreground: 218 11% 15%;
+    --card: 220 15% 15%;
+    --card-foreground: 220 20% 92%;
 
-    /* Popover components */
-    --popover: 0 0% 100%;
-    --popover-foreground: 218 11% 15%;
+    /* Popover */
+    --popover: 220 15% 15%;
+    --popover-foreground: 220 20% 92%;
 
-    /* Brand colors - vibrant teal primary */
-    --primary: 178 84% 40%;
+    /* Primary - coral/pink pop */
+    --primary: 345 80% 62%;
     --primary-foreground: 0 0% 100%;
-    --primary-muted: 178 84% 95%;
 
-    /* Secondary - warm orange for CTAs */
-    --secondary: 24 95% 53%;
+    /* Secondary - lavender accent */
+    --secondary: 265 70% 68%;
     --secondary-foreground: 0 0% 100%;
-    --secondary-muted: 24 95% 95%;
 
-    /* Neutral grays */
-    --muted: 220 13% 96%;
-    --muted-foreground: 215 16% 47%;
-
-    /* Accent - purple for highlights */
-    --accent: 262 83% 58%;
+    /* Accent - mint */
+    --accent: 165 65% 50%;
     --accent-foreground: 0 0% 100%;
 
+    /* Neutrals */
+    --muted: 220 10% 20%;
+    --muted-foreground: 220 12% 65%;
+
     /* Status colors */
-    --destructive: 0 84% 60%;
+    --destructive: 0 70% 55%;
     --destructive-foreground: 0 0% 100%;
-    --success: 142 76% 36%;
+    --success: 150 65% 42%;
     --success-foreground: 0 0% 100%;
 
-    /* UI elements */
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 178 84% 40%;
+    /* UI */
+    --border: 220 15% 22%;
+    --input: 220 15% 22%;
+    --ring: 345 80% 62%;
 
     /* Layout */
-    --radius: 0.75rem;
+    --radius: 1rem;
 
-    /* Brand gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(178 84% 50%) 100%);
-    --gradient-secondary: linear-gradient(135deg, hsl(var(--secondary)) 0%, hsl(24 95% 63%) 100%);
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 100%);
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(345 80% 62%) 0%, hsl(24 95% 63%) 100%);
+    --gradient-secondary: linear-gradient(135deg, hsl(265 70% 68%) 0%, hsl(345 80% 62%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(345 80% 62%) 0%, hsl(265 70% 68%) 100%);
 
-    /* Shadows */
-    --shadow-soft: 0 2px 8px -2px hsl(var(--primary) / 0.1);
-    --shadow-medium: 0 8px 25px -5px hsl(var(--primary) / 0.15);
-    --shadow-large: 0 25px 50px -12px hsl(var(--primary) / 0.25);
+    /* Soft shadows for boutique vibe */
+    --shadow-soft: 0 2px 8px -2px hsl(220 20% 10% / 0.2);
+    --shadow-medium: 0 6px 20px -5px hsl(220 20% 10% / 0.25);
+    --shadow-large: 0 15px 40px -8px hsl(220 20% 10% / 0.3);
 
-    /* Animation easing */
+    /* Animations */
     --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
     --ease-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-
-    /* Sidebar (keeping minimal for compatibility) */
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 218 11% 15%;
-    --sidebar-border: 220 13% 91%;
-  }
-
-  .dark {
-    --background: 218 20% 8%;
-    --foreground: 220 13% 96%;
-    --card: 218 20% 10%;
-    --card-foreground: 220 13% 96%;
-    --popover: 218 20% 10%;
-    --popover-foreground: 220 13% 96%;
-    --primary: 178 84% 50%;
-    --primary-foreground: 218 20% 8%;
-    --secondary: 24 95% 58%;
-    --secondary-foreground: 218 20% 8%;
-    --muted: 218 20% 15%;
-    --muted-foreground: 215 16% 65%;
-    --accent: 262 83% 68%;
-    --accent-foreground: 218 20% 8%;
-    --border: 218 20% 20%;
-    --input: 218 20% 20%;
-    --ring: 178 84% 50%;
-    --sidebar-background: 218 20% 8%;
-    --sidebar-foreground: 220 13% 96%;
-    --sidebar-border: 218 20% 20%;
   }
 }
 
@@ -109,25 +79,25 @@
 }
 
 @layer components {
-  /* Brand buttons */
+  /* Buttons */
   .btn-primary {
-    @apply bg-primary text-primary-foreground hover:bg-primary/90 shadow-soft;
+    @apply bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-6 py-3 shadow-soft;
   }
 
   .btn-secondary {
-    @apply bg-secondary text-secondary-foreground hover:bg-secondary/90 shadow-soft;
+    @apply bg-secondary text-secondary-foreground hover:bg-secondary/90 rounded-full px-6 py-3 shadow-soft;
   }
 
   .btn-gradient {
-    @apply bg-gradient-to-r from-primary to-accent text-white shadow-medium hover:shadow-large transition-all duration-300;
+    @apply bg-gradient-to-r from-primary to-secondary text-white rounded-full px-6 py-3 shadow-medium hover:shadow-large transition-all duration-300;
   }
 
   /* Product cards */
   .product-card {
-    @apply bg-card rounded-lg border shadow-soft hover:shadow-medium transition-all duration-300 hover:scale-[1.02];
+    @apply bg-card rounded-xl border shadow-soft hover:shadow-medium transition-all duration-300 hover:scale-[1.03];
   }
 
-  /* Hero sections */
+  /* Hero */
   .hero-gradient {
     background: var(--gradient-hero);
   }
