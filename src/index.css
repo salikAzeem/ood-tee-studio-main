@@ -3,12 +3,11 @@
 @tailwind utilities;
 
 /* OODD Trendy Fashion E-commerce - Soft Dark Theme */
-
 @layer base {
   :root {
     /* Base - soft charcoal */
-    --background: 220 15% 12%;         /* Not pure black, soft charcoal */
-    --foreground: 220 20% 92%;         /* Slightly off-white for elegance */
+    --background: 220 15% 12%;
+    --foreground: 220 20% 92%;
 
     /* Card components */
     --card: 220 15% 15%;
@@ -18,16 +17,16 @@
     --popover: 220 15% 15%;
     --popover-foreground: 220 20% 92%;
 
-    /* Primary - coral/pink pop */
-    --primary: 345 80% 62%;
+    /* Primary - Teal / Cyan */
+    --primary: 190 90% 48%;
     --primary-foreground: 0 0% 100%;
 
-    /* Secondary - lavender accent */
-    --secondary: 265 70% 68%;
+    /* Secondary - Indigo */
+    --secondary: 250 65% 55%;
     --secondary-foreground: 0 0% 100%;
 
-    /* Accent - mint */
-    --accent: 165 65% 50%;
+    /* Accent - Emerald */
+    --accent: 150 60% 45%;
     --accent-foreground: 0 0% 100%;
 
     /* Neutrals */
@@ -43,15 +42,15 @@
     /* UI */
     --border: 220 15% 22%;
     --input: 220 15% 22%;
-    --ring: 345 80% 62%;
+    --ring: 190 90% 48%;
 
     /* Layout */
     --radius: 1rem;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(345 80% 62%) 0%, hsl(24 95% 63%) 100%);
-    --gradient-secondary: linear-gradient(135deg, hsl(265 70% 68%) 0%, hsl(345 80% 62%) 100%);
-    --gradient-hero: linear-gradient(135deg, hsl(345 80% 62%) 0%, hsl(265 70% 68%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(190 90% 48%) 0%, hsl(250 65% 55%) 100%);
+    --gradient-secondary: linear-gradient(135deg, hsl(250 65% 55%) 0%, hsl(150 60% 45%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(190 90% 48%) 0%, hsl(150 60% 45%) 100%);
 
     /* Soft shadows for boutique vibe */
     --shadow-soft: 0 2px 8px -2px hsl(220 20% 10% / 0.2);
